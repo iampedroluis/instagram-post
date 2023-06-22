@@ -9,6 +9,7 @@ body{
 	width: 50%;
     height: 50%;
 	background-color: rgb(255, 255, 255);
+    margin-top: 40px;
 }
 
 .headercard{
@@ -16,27 +17,39 @@ body{
 	display: flex;
 	height: 45px;
 	border-bottom: 0.2px solid rgba(208, 202, 202, 0.6);
-	margin-top: 40px;
-    padding-bottom: 20px;
+    margin-top: 10px;
+    padding-top: 10px;    
+    justify-content: space-between;
+}
+
+.tituloimg{
+    display: flex;
+}
+.options{
+    margin-right: 10px;
 }
 
 .photoperfil img{
     width: 40px;
     height: 40px;
-    margin: 10px 10px 10px 10px;
+    margin-left: 10px;
 }
 .title-card h3{
+    margin-top: 0;
     font-size: 15px;
     margin-bottom: 0px;
+    
 }
 .title-card p{
     font-size: small;
     margin: 0px;
 }
-.options{
-padding-left: 70%;
-padding-top: 4%;
+
+.option{
+    justify-content: end;
+    align-items: end;
 }
+
 
 .bodycard img{
     width: 100%;
@@ -44,10 +57,13 @@ padding-top: 4%;
 .like i{
     margin: auto;
     padding-left: 10px;
+    margin-top: 5px;
 }
 
 #save{
-    padding-left: 75%;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 .description p{
     margin-left: 10px;
