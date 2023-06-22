@@ -1,0 +1,59 @@
+body{
+	background-color: rgba(202, 202, 192, 0.735);
+	font-family: Manrope;
+	margin-top: 0px;
+	margin: 0px 0px 5px 0px;
+}
+.card{
+	margin: auto;
+	width: 50%;
+    height: 50%;
+	background-color: rgb(255, 255, 255);
+}
+
+.headercard{
+	
+	display: flex;
+	height: 45px;
+	border-bottom: 0.2px solid rgba(208, 202, 202, 0.6);
+	margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.photoperfil img{
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 10px 10px;
+}
+.title-card h3{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.title-card p{
+    font-size: small;
+    margin: 0px;
+}
+.options{
+padding-left: 70%;
+padding-top: 4%;
+}
+
+.bodycard img{
+    width: 100%;
+}
+.like i{
+    margin: auto;
+    padding-left: 10px;
+}
+
+#save{
+    padding-left: 75%;
+}
+.description p{
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.likes p{
+   padding-left: 10px;
+}
